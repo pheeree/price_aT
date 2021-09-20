@@ -1,0 +1,21 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+# 0. packges
+```{r}
+library(tidyverse)
+library(tidymodels)
+```
+
+# 1. data
+```{r}
+dt_train <- read_csv("./data/public_data/train_AT_TSALET_ALL/AT_TSALET_ALL_201601.csv")
+```
+
+
+
+
+
+
